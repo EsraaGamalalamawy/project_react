@@ -1,0 +1,65 @@
+:root{
+    --maincolor:#bca6e0;
+}
+.outeffect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20vh;
+    background: #bca6e047;
+}
+.fetch{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.data1{
+    background: var(--maincolor);
+    width: 45%;
+    height: 65vh;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: inset 0 0 14px 0px black;
+    overflow-y: scroll;
+    margin-top: 20px;
+}
+.data2{
+    width: 45%;
+    height: 65vh;
+    background: var(--maincolor);
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: inset 0 0 14px 0px black;
+}
+.data2 input{
+    margin-top: 20px;
+    width: 80%;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.outform{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    transform: translatex(-50%);
+    margin-left: 50%;
+    margin-top: 80px;
+}
+.outform input, .outform textarea{
+    margin: 10px 0;
+    background: var(--maincolor);
+    color: white;
+    padding: 4px 10px;
+    border-radius: 7px;
+}
+.outform input::placeholder, .outform textarea::placeholder{
+    color:white
+}
+.outform button{
+    border: none;
+    margin: 20px 0;
+    border-radius: 7px;
+    background: white;
+    box-shadow: 2px 2px 3px -1px var(--maincolor);
+    color: var(--maincolor);
+}

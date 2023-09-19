@@ -1,0 +1,238 @@
+*{
+  text-decoration: none;
+}
+body{
+  background: url("./images/pngtree-color-gradient-pink-polygon-girl-background-picture-image_981617.jpg");
+  background-size: cover;
+  position: relative;
+  padding-top: 20px;
+}
+:root{
+  --maincolor:#bca6e0;
+}
+.apptitle{
+  color: #402173;
+  text-align: center;
+  margin-top: 122px;
+  font-size: 42px;
+  font-weight: bold;
+  text-shadow: 3px 3px 4px var(--maincolor);
+}
+.title{
+  text-align: center;
+    padding-top: 20px;
+    text-shadow: 3px 2px 3px var(--maincolor)
+}
+nav{
+  box-shadow: 0 3px 10px -4px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px 0;
+  flex-wrap: wrap;
+}
+nav a{
+  color: #bca6e0;
+  font-weight: bold;
+  padding:0px 10px;
+  border-radius: 7px;
+}
+.add{
+  background-color: var(--maincolor);
+  width: 50%;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  box-shadow: 0px 0px 12px -3px black;
+  cursor: pointer;
+}
+.add:hover{
+  box-shadow: inset 0 0 6px 0px black;
+}
+.main{
+  background-color: var(--maincolor);
+  padding: 20px;
+  border-radius: 7px;
+  width: 80%;
+  margin-left: 50%;
+  margin-top: 50px;
+  transform: translateX(-50%);
+  box-shadow: 0px 0px 12px -1px #454242;
+  text-align: center;
+}
+.main2{
+  display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.output{
+  background: white;
+  margin-top: 50px;
+  padding: 5px;
+  border-radius: 7px;
+}
+.out{
+  position: relative;
+}
+.point{
+  background-color: #efa9a9;
+  color: var(--maincolor);
+  position: absolute;
+  top: -25px;
+  right: 0;
+  padding: 3px 5px;
+  border-radius: 50%;
+}
+.pointnum{
+  color: var(--maincolor);
+  position: absolute;
+}
+.inp{
+  margin-top: 20px;
+  width: 50%;
+  padding: 5px 10px;
+  border-radius: 7px;
+  caret-color: var(--maincolor);
+}
+.year{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
+  margin-top: 60px;
+  text-align: center;
+  box-shadow: 6px 6px 15px -2px #022a26;
+}
+.year .btn{
+  border-radius: 15px;
+  width: 80%;
+  padding: 5px;
+  margin-top: 10px;
+  border: none;
+  background: var(--maincolor);
+  color: white;
+  font-weight: bold;
+}
+.mainh1{
+  text-align: center;
+  text-shadow: 3px 2px 3px var(--maincolor);
+  padding-bottom: 20px;
+}
+.year .btn:hover{
+  color: white;
+  background: var(--maincolor);
+  box-shadow: inset 0 0 6px 0px black;
+}
+.btn::placeholder , .outadd input::placeholder{
+  color: white;
+  text-align: center;
+}
+.outadd{
+  position: relative;
+  width: 80%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10px;
+}
+.outadd input{
+  border-radius: 15px;
+  width: 100%;
+  padding: 5px;
+  border: none;
+  background: var(--maincolor);
+  color: white;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.outadd input:focus{
+  outline: none;
+}
+.addy{
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border-radius: 15px;
+  padding: 0 20px;
+  border: 2px solid var(--maincolor);
+  cursor: pointer;
+}
+/* //////////////////////////////////////////////////////////////////////////// */
+.msend{
+  margin-left: 50%;
+  margin-top: 90px;
+  transform: translateX(-50%);
+  background: #1fa296;
+  cursor: pointer;
+  border-radius: 23px;
+  padding: 7px 20px;
+  color: white;
+  font-size: 16px;
+}
+.info{
+  width: fit-content;
+  margin-left: 50%;
+  transform: translate(-50%, -165%);
+  padding: 10px 30px;
+  box-sizing: border-box;
+}
+.info [type="text"], .info textarea{
+  border: none;
+  padding: 7px 10px;
+  color: #99eee6;
+  background: #3e3c3c;
+  border-radius: 10px;
+  margin-right: 15px;
+  transition: .5s;
+}
+.info [type="text"]:focus ,.info textarea:focus{
+  outline: none;
+}
+.info [type="text"]::placeholder ,.info textarea::placeholder{
+  color: #99eee6;
+}
+.info textarea{
+  margin-bottom: -12px;
+}
+.info [type="submit"]{
+  color: white;
+  background: #1fa296;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 2px 2px 3px -1px black;
+  cursor: pointer;
+  transition: .5s;
+}
+.info [type="submit"]:hover{
+  box-shadow: inset -1px -1px 4px black;
+}
+.info .text , .info .text{
+  opacity: 0;
+}
+.text2{
+  opacity: 1;
+}
+.imagephone{
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+}
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.outimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.outimg img{
+  height: 250px;
+}
+/* ////////////////////////////////////////////////////////////////////////////// */
+@media (max-width:354px) {
+  .year {
+      width: 85%;
+  }
+}
