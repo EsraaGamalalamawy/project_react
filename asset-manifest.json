@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/project_react/static/css/main.01fd2af4.css",
+    "main.js": "/project_react/static/js/main.95d7ae59.js",
+    "static/media/pngtree-color-gradient-pink-polygon-girl-background-picture-image_981617.jpg": "/project_react/static/media/pngtree-color-gradient-pink-polygon-girl-background-picture-image_981617.6471737b81c3671c1e62.jpg",
+    "static/media/realme.png": "/project_react/static/media/realme.ab9d07b1cd720fd5338e.png",
+    "static/media/shawmy.webp": "/project_react/static/media/shawmy.db883968280a44412631.webp",
+    "static/media/kidsplay13.jpeg": "/project_react/static/media/kidsplay13.34d1e1b69d637df0c529.jpeg",
+    "static/media/صور-بنات-صغار-2020-2.jpg": "/project_react/static/media/صور-بنات-صغار-2020-2.4a337f82d7087d11e915.jpg",
+    "static/media/kidsplay5.jpeg": "/project_react/static/media/kidsplay5.bb22888bbab9255cf94d.jpeg",
+    "static/media/kidsplay4.webp": "/project_react/static/media/kidsplay4.df77b8a181ddc0f996b5.webp",
+    "static/media/kidsplay23.jpeg": "/project_react/static/media/kidsplay23.0fd45a0b83fb73736961.jpeg",
+    "static/media/kidsplay2.jpeg": "/project_react/static/media/kidsplay2.2d12a24d275ac2e1dd11.jpeg",
+    "static/media/kidsplay3.webp": "/project_react/static/media/kidsplay3.871aa642bf6f44052c44.webp",
+    "static/media/kidsplay24.jpeg": "/project_react/static/media/kidsplay24.2fa76c639f5d9618eece.jpeg",
+    "index.html": "/project_react/index.html",
+    "main.01fd2af4.css.map": "/project_react/static/css/main.01fd2af4.css.map",
+    "main.95d7ae59.js.map": "/project_react/static/js/main.95d7ae59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01fd2af4.css",
+    "static/js/main.95d7ae59.js"
+  ]
+}
